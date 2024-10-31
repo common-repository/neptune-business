@@ -1,0 +1,170 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.section {
+  padding: 3em 0;
+  position: relative;
+}
+.section header {
+  text-align: left;
+  padding-bottom: 2em;
+}
+
+.section header h4 {
+	font-weight: 200;
+    text-transform: capitalize;
+    font-size: 28px;
+    margin-top: 0;
+    line-height: 38px;
+}
+.section header h2 {
+	font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+}
+h2.section-title {
+	margin-bottom: 2em;
+	text-align: left;
+	font-weight: 600;
+}
+
+/*
+* Header Section
+*/
+.header-section {
+	padding: 0
+}
+.welcome {
+  width: 100%;
+  color: #fff;
+  padding:10em 0em;
+  position: relative;
+}
+.welcome-text {
+
+
+}
+.welcome-text h1 {
+  font-size: 65px;
+  font-weight: bold;
+  line-height: 75px;
+}
+.welcome-text h2 {
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 300;
+}
+.overlay {
+  background: rgba(0,0,0,0.5);
+  width:100%;
+  height:   100%;
+  position: absolute; 
+  top:  0;
+  left:   0;
+}
+ a.button {
+  display: inline;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 50px;
+  border:1px solid #fff;
+  padding:1em 2em;
+ margin-right: 10px;
+}
+a.button-b {
+  display: inline;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 50px;
+  border:1px solid #fff;
+  padding:1em 2em;
+  margin-right: 10px;
+
+}
+a:visited.button,
+a:visited.button-b {
+	color: #fff;
+}
+
+.header-buttons {
+	margin: 4em 0;
+}
+
+.feature header {
+  text-align: left;
+  padding-bottom: 0;
+}
+.featured-block .feature {
+	padding-right: 3em;
+}
+.feature .content-area {
+	text-align: left;
+}
+.featured-block img {
+	border-radius: 5px;
+}
+
+.cta {
+	height: 100%;
+    background-attachment: fixed;
+    padding: 5em 0;
+} 
+.cta h2 {
+	text-transform: capitalize;
+}
+
+/* Blogs */
+
+.pro-blog .blog-thumb {
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+}
+.pro-blog .blog-thumb img {
+	width: 100%;
+}
+.pro-blog .small-blog-thumb {
+	height: 120px;
+	background-size: cover;
+	background-position: center;
+}
+.pro-blog h2.entry-title {
+	margin: 1em 0;
+}
+.pro-blog .side-blog {
+	margin: 0;
+	padding: 1em 0 0.66em;
+	border-bottom: none;
+}
+.pro-blog .small-blog-thumb {
+	border-radius: 5px;
+}
+
+/*--------------------------------------------------------------
+## Maps
+--------------------------------------------------------------*/
+
+.neptune-maps-item {
+	width: 100%;
+	min-height: 480px;
+	background: #eee;
+}
+.neptune-maps .grid-wide {
+	position: relative;
+}
+.address {
+	background: #fff;
+    padding: 1em;
+    position: absolute;
+    top: 6em;
+    z-index: 9;
+    border-radius: 5px;
+}
+.address a.button {
+	display: inline-block;
+	padding: 0.7em 2em;
+}
